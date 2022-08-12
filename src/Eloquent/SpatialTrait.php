@@ -74,7 +74,7 @@ trait SpatialTrait
      *
      * @var string
      */
-    protected $wktOptionsDefault = 'axis-order=long-lat';
+    protected $wktOptionsDefault = false;
 
     /**
      * Create a new Eloquent query builder for the model.

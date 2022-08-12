@@ -12,7 +12,7 @@ class SpatialExpression extends Expression
      *
      * @var string
      */
-    protected $wktOptions = 'axis-order=long-lat';
+    protected $wktOptions = false;
 
     public function getValue()
     {
